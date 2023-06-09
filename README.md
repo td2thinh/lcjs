@@ -30,6 +30,9 @@ const timeStamp = data.x - timeBeginInMS
 series.add({ x: timeStamp, y: data.y })
 ```
 
+## Built With
+
+ReactJS, lcjs, react-bootstrap, Vite
 
 ## Getting Started
 
