@@ -49,7 +49,7 @@ Need to have a WebSocket server running that send data in the format
             "x": new Date().getTime(),
             "y": sensorData,
         };
-        socket.emit('data', data);
+socket.emit('data', data);
 ```
 ExpressJS SocketIO server available here https://github.com/td2thinh/socketIO-server-iot/
 
